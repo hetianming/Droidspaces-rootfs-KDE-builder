@@ -21,12 +21,12 @@ on:
         description: '自定义用户名（默认 Gold）'
         required: false
         type: string
-        default: 'Gold'
+        default: 'HeTM'
       build_KDE:
         description: 'KDE桌面选择(conc-精简 min-最小构造 mobile-移动版 none-不用KDE)'
         required: true
         type: choice
-        default: 'min'
+        default: 'mobile'
         options: 
           - 'conc'
           - 'min'
